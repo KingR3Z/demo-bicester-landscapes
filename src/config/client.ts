@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "6",
 
   // Services
   services: [
@@ -79,9 +79,12 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Chris Hurden", rating: 5, text: "I took a slightly different direction for my mid-life crisis purchase and bought a 6x4m roll of astroturf used on hockey pitches in the FIH league with the idea of rolling it out on the grass or patio to play with my kid. Sadly both the …  ", date: "3 months ago" },
+    { name: "Hamish Torunski", rating: 5, text: "Highly recommend this small family firm. They did a great job of installing my artificial lawn, see photo. Their work ethics are excellent discussing the progress with me when required and the best thing was they cleared up each night before leaving,", date: "9 months ago" },
+    { name: "David Bloomfield", rating: 5, text: "We had Ariel, come to do our lawn in January. I’ve held off giving an immediate review because sometimes a quick review isn’t always the sign of a good job. 5 months down the line I’m still as happy as I was when the job was completed. …  ", date: "9 months ago" },
+    { name: "Acrylophy Art", rating: 5, text: "I am not quite sure where to begin with this review…so I will say this...if you are hesitating to call the team and are perusing reviews to decide, then wait no longer and call them immediately. …  ", date: "7 months ago" },
+    { name: "Angela Holloway", rating: 5, text: "Definitely recommend Ariel and his team they have just finished my artificial grass and patio area. They were very professional. Kept the site clean and tidy at all times. Nothing was too much for them. Thanks again Bicester Landscapes. ", date: "4 years ago" },
+    { name: "Alex Acklam", rating: 5, text: "Ariel and the team did an amazing job installing some artificial grass for me. They were quick, tidy, and the results look great! From start to finish Ariel/Katey were always very responsive to any questions and very patient with finding a date that", date: "4 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
